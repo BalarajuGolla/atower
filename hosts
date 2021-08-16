@@ -1,58 +1,58 @@
 [jenkins]
-jenkins-slave.golla.com	 ansible_host=192.168.159.128
-jenkins-master.golla.com ansible_host=192.168.159.144
+jenkins-slave.golla.com	 ansible_host=192.168.159.128 ansible_user=root ansible_ssh_pass=admin@12
+jenkins-master.golla.com ansible_host=192.168.159.144 ansible_user=root ansible_ssh_pass=admin@12
 
 [NFS]
-nfs.golla.com	ansible_host=192.168.159.132
+nfs.golla.com	ansible_host=192.168.159.132 ansible_user=root ansible_ssh_pass=admin@12
 
 [loadbalancer]
-loadbalancer.golla.com	ansible_host=192.168.159.100
+loadbalancer.golla.com	ansible_host=192.168.159.100 ansible_user=root ansible_ssh_pass=admin@12
 
 [web_servers]
-web-server01.golla.com  ansible_host=192.168.159.137
-web-server02.golla.com	ansible_host=192.168.159.138
+web-server01.golla.com  ansible_host=192.168.159.137 ansible_user=root ansible_ssh_pass=admin@12
+web-server02.golla.com	ansible_host=192.168.159.138 ansible_user=root ansible_ssh_pass=admin@12
 
 [docker_master]
-docker-master.golla.com	ansible_host=192.168.159.140
+docker-master.golla.com	ansible_host=192.168.159.140 ansible_user=root ansible_ssh_pass=admin@12
 
 [docker_nodes]
-docker-node1.golla.com	ansible_host=192.168.159.142
-docker-node2.golla.com	ansible_host=192.168.159.141
+docker-node1.golla.com	ansible_host=192.168.159.142 ansible_user=root ansible_ssh_pass=admin@12
+docker-node2.golla.com	ansible_host=192.168.159.141 ansible_user=root ansible_ssh_pass=admin@12
 
 [k8s_master]
-k8smaster.golla.com	ansible_host=192.168.159.129
+k8smaster.golla.com	ansible_host=192.168.159.129 ansible_user=root ansible_ssh_pass=admin@12
 
 [k8s_nodes]
-k8snode1.golla.com	ansible_host=192.168.159.130
-k8snode2.golla.com	ansible_host=192.168.159.131
+k8snode1.golla.com	ansible_host=192.168.159.130 ansible_user=root ansible_ssh_pass=admin@12
+k8snode2.golla.com	ansible_host=192.168.159.131 ansible_user=root ansible_ssh_pass=admin@12
 
 [bastions]
-bastion.golla.com	ansible_host=192.168.159.125
-bastion02.golla.com	ansible_host=192.168.159.126
+bastion.golla.com	ansible_host=192.168.159.125 ansible_user=root ansible_ssh_pass=admin@12
+bastion02.golla.com	ansible_host=192.168.159.126 ansible_user=root ansible_ssh_pass=admin@12
 
 [ansible]	
-ansible.golla.com	ansible_host=192.168.159.111
+ansible.golla.com	ansible_host=192.168.159.111 ansible_user=root ansible_ssh_pass=admin@12
 
 [grafana]
-grafana.golla.com	ansible_host=192.168.159.160
+grafana.golla.com	ansible_host=192.168.159.160 ansible_user=root ansible_ssh_pass=admin@12
 
 [prometheus]
-prometheus.golla.com	ansible_host=192.168.159.161
+prometheus.golla.com	ansible_host=192.168.159.161 ansible_user=root ansible_ssh_pass=admin@12
 
 [alertmanager]
-altertmanager.golla.com	ansible_host=192.168.159.162
+altertmanager.golla.com	ansible_host=192.168.159.162 ansible_user=root ansible_ssh_pass=admin@12
 
 [ansible_pgsql]
-pgsql.golla.com	ansible_host=192.168.159.165
+pgsql.golla.com	ansible_host=192.168.159.165 ansible_user=root ansible_ssh_pass=admin@12
 
 [mysql)lab]
-mysql.golla.com	ansible_host=192.168.159.166
+mysql.golla.com	ansible_host=192.168.159.166 ansible_user=root ansible_ssh_pass=admin@12
 
 [web_lab]
-web-apache.golla.com	ansible_host=192.168.159.169
+web-apache.golla.com	ansible_host=192.168.159.169 ansible_user=root ansible_ssh_pass=admin@12
 
 [redhat_60days_atower]
-atower.golla.com	ansible_host=192.168.159.180
+atower.golla.com	ansible_host=192.168.159.180 ansible_user=root ansible_ssh_pass=admin@12
 
 [redhat_pgsql_db]
-pgsql-db.golla.com	ansible_host=192.168.159.181
+pgsql-db.golla.com	ansible_host=192.168.159.181 ansible_user=root ansible_ssh_pass=admin@12
