@@ -1,58 +1,58 @@
 [jenkins]
-192.168.159.128
-192.168.159.144
+jenkins-slave.golla.com	 ansible_host=192.168.159.128
+jenkins-master.golla.com ansible_host=192.168.159.144
 
 [NFS]
-192.168.159.132
+nfs.golla.com	ansible_host=192.168.159.132
 
 [loadbalancer]
-192.168.159.100
+loadbalancer.golla.com	ansible_host=192.168.159.100
 
-[webservers]
-192.168.159.137
-192.168.159.138
+[web_servers]
+web-server01.golla.com  ansible_host=192.168.159.137
+web-server02.golla.com	ansible_host=192.168.159.138
 
-[dockermaster]
-192.168.159.140
+[docker_master]
+docker-master.golla.com	ansible_host=192.168.159.140
 
-[dockernodes]
-192.168.159.142
-192.168.159.141
+[docker_nodes]
+docker-node1.golla.com	ansible_host=192.168.159.142
+docker-node2.golla.com	ansible_host=192.168.159.141
 
-[k8smaster]
-192.168.159.129
+[k8s_master]
+k8smaster.golla.com	ansible_host=192.168.159.129
 
-[k8snodes]
-192.168.159.130
-192.168.159.131
+[k8s_nodes]
+k8snode1.golla.com	ansible_host=192.168.159.130
+k8snode2.golla.com	ansible_host=192.168.159.131
 
 [bastions]
-192.168.159.125
-192.168.159.126
+bastion.golla.com	ansible_host=192.168.159.125
+bastion02.golla.com	ansible_host=192.168.159.126
 
 [ansible]	
-192.168.159.111
+ansible.golla.com	ansible_host=192.168.159.111
 
 [grafana]
-192.168.159.160
+grafana.golla.com	ansible_host=192.168.159.160
 
 [prometheus]
-192.168.159.161
+prometheus.golla.com	ansible_host=192.168.159.161
 
 [alertmanager]
-192.168.159.162
+altertmanager.golla.com	ansible_host=192.168.159.162
 
-[ansiblepgsql]
-192.168.159.165
+[ansible_pgsql]
+pgsql.golla.com	ansible_host=192.168.159.165
 
-[mysqllab]
-192.168.159.166
+[mysql)lab]
+mysql.golla.com	ansible_host=192.168.159.166
 
-[weblab]
-192.168.159.169
+[web_lab]
+web-apache.golla.com	ansible_host=192.168.159.169
 
-[redhat60daysatower]
-192.168.159.180
+[redhat_60days_atower]
+atower.golla.com	ansible_host=192.168.159.180
 
-[redhat60daypgsqldb]
-192.168.159.181
+[redhat_pgsql_db]
+pgsql-db.golla.com	ansible_host=192.168.159.181
