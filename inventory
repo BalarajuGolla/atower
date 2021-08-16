@@ -1,0 +1,58 @@
+[jenkins]
+192.168.159.128 jenkins-slave.golla.com
+192.168.159.144 jenkins-master.golla.com
+
+[NFS]
+192.168.159.132 nfs.golla.com
+
+[loadbalancer]
+192.168.159.100	loadbalancer.golla.com
+
+[web-servers]
+192.168.159.137 web-server01.golla.com
+192.168.159.138	web-server02.golla.com
+
+[docker-master]
+192.168.159.140 docker-master.golla.com
+
+[docker-nodes]
+192.168.159.142 docker-node1.golla.com
+192.168.159.141 docker-node2.golla.com
+
+[k8s-master]
+192.168.159.129 k8smaster.golla.com
+
+[k8s-nodes]
+192.168.159.130 k8snode1.golla.com
+192.168.159.131 k8snode2.golla.com
+
+[bastions]
+192.168.159.125 bastion.golla.com
+192.168.159.126 bastion02.golla.com
+
+[ansible]	
+192.168.159.111	ansible.golla.com
+
+[grafana]
+192.168.159.160 grafana.golla.com
+
+[prometheus]
+192.168.159.161 prometheus.golla.com
+
+[alertmanager]
+192.168.159.162 altertmanager.golla.com
+
+[ansible-pgsql]
+192.168.159.165	pgsql.golla.com
+
+[mysql-lab]
+192.168.159.166	mysql.golla.com
+
+[web-lab]
+192.168.159.169	web-apache.golla.com
+
+[redhat-60days-atower]
+192.168.159.180	atower.golla.com
+
+[redhat-pgsql-db]
+192.168.159.181	pgsql-db.golla.com
